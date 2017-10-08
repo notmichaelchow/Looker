@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
-/* 
-    FORM STYLING
-*/
+
+
 #fileselector {
     margin: 10px; 
 }
@@ -13,7 +12,7 @@
 .margin-correction {
     margin-right: 10px;   
 }
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -21,6 +20,25 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+header {
+        margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+        letter-spacing: 0.2em;
+		vertical-align: baseline;
+}
+
+title{
+        margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}  
+
 .head {
         text-align: center;
         margin-top: 100px;
@@ -324,10 +342,12 @@
 	}
 
 		#header h1 {
-			font-size: 5.5em;
+			font-size: 8.0em;
 			font-weight: 900;
-			letter-spacing: -0.035em;
+			letter-spacing: -0.036em;
 			line-height: 1em;
+            margin-bottom: -10px;
+            font-style: italic;
 		}
 
 		#header p {
